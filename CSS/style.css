@@ -294,6 +294,10 @@ dd {
   word-break: keep-all;
 }
 
+.page_3 {
+  position: relative;
+}
+
 
 
 .blog {
@@ -317,17 +321,22 @@ dd {
 .blog_img {
   width: 360px;
   margin: 100px auto;
+  
 }
 
 .blog_img img {
   width: 100%;
   position: relative;
-  top: -250px;
-  left: 60px;
 }
 
 .blog_contents {
   padding: 15px 25px;
+}
+
+.blog_group {
+  display: block;
+  width: 30%;
+  position: relative;
 }
 
 .blog_label {
@@ -335,7 +344,27 @@ dd {
   background: #cc0099;
   display: inline-block;
   padding: 5px 15px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 
+.page_3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.blog_update {
+  display: inline-block;
+  margin-top: 10px;
+  color: #808080;
+}
+
+.blog_tag_coachtech {
+  display: inline-block;
+  margin-left: 220px;
+  color: #808080;
 }
 
 
